@@ -1888,3 +1888,10 @@ a:focus {
         text-align: center;
     }
 }
+
+#whatsapp-widget {
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 70px; /* Adjust the distance from the right as needed */
+    z-index: 1000; /* Make sure it appears above other content */
+}
